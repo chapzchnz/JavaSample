@@ -8,5 +8,6 @@ public class MyPractice {
         String name = new String("Chamalee");
         System.out.println(name.toUpperCase(Locale.ROOT));
 
+        
     }
 }
