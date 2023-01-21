@@ -3,21 +3,21 @@ import java.util.Date;
 public class MyFirst {
 
     public static void main(String[] args){
-        int    sum;
-        double sum1;
-        float  sum2;
-        Date date = new Date();
-        byte theByte = -128;
+        int age = 17;
+        String message  = age<=15 ?
+                "Hoorey I am an adult" :
+                "Oops I am  not an  adult";
+        System.out.println(message);
+     //   if (age<=15){
+       //     System.out.println("This guy is an adult ");
+   //     }
+   //     else {
+    //       System.out.println("This guy is not an  adult");
+        }
 
-        sum= 50/6;
-        sum1=50/6d;
-        sum2=50/6f;
 
-        System.out.println(sum);
-        System.out.println(sum1);
-        System.out.println(sum2);
-        System.out.println(theByte);
-    }
+
+
 }
 
 
